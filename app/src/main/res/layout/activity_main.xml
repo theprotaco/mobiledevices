@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ffff"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:orientation="vertical"
+    tools:context="com.example.thepr.activitytrackingapp.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Enter Phone Number"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="187dp" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="245dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="271dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="270dp" />
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            tools:layout_editor_absoluteX="177dp"
+            tools:layout_editor_absoluteY="271dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/uhhh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Major"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <EditText
+        android:id="@+id/major"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Major"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/savebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:text="Save"
+            tools:layout_editor_absoluteX="79dp"
+            tools:layout_editor_absoluteY="413dp" />
+
+        <Button
+            android:id="@+id/cancelbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:text="Cancel"
+            tools:layout_editor_absoluteX="177dp"
+            tools:layout_editor_absoluteY="413dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
